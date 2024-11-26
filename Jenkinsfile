@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/bkrrajmali/newspringbootpetapp.git'
+                git branch: 'prod', url: 'https://github.com/bkrrajmali/newspringbootpetapp.git'
             }
         }
     }
